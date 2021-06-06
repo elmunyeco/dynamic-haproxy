@@ -1,6 +1,6 @@
 FROM haproxy:2.3
 
-LABEL maintainer="tjveil@gmail.com"
+LABEL maintainer="elyecomun@gmail.com"
 
 RUN apt-get update && apt-get upgrade -y
 

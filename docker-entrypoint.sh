@@ -115,4 +115,6 @@ fi
 
 buildConfig
 
+echo "LB listening on ${_http_bind_port}"
+
 exec "$@"
