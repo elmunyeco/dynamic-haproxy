@@ -115,6 +115,10 @@ fi
 
 buildConfig
 
-echo "LB listening on ${_http_bind_port}"
+echo "+---------------+"
+echo "| configuración |"
+echo "+---------------+"
+echo
+cat /usr/local/etc/haproxy/haproxy.cfg
 
 exec "$@"
